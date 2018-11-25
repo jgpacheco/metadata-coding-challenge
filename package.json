@@ -1,0 +1,44 @@
+{
+  "name": "metadata-coding-challenge",
+  "version": "1.0.0",
+  "description": "Coding challenge for book processing related roles. Please complete the challenge and send it back within 24 hours, either a zip of the source code or a link to the git repository.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "unit": "istanbul cover spec/unit/jasmine.js --config=spec/support/istanbul.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgpacheco/metadata-coding-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgpacheco/metadata-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/jgpacheco/metadata-coding-challenge#readme",
+  "dependencies": {
+    "agenda": "^2.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "extract-zip": "^1.6.7",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.13",
+    "node-dir": "^0.1.17",
+    "node-fetch": "^2.3.0",
+    "rimraf": "^2.6.2",
+    "tar": "^4.4.8",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.3.0",
+    "jasmine-terminal-reporter": "^1.0.3",
+    "rootpath": "^0.1.2",
+    "proxyquire": "^2.1.0"
+  }
+}

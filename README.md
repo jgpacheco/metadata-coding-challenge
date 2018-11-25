@@ -3,7 +3,18 @@ Coding challenge for book processing related roles. Please complete the challeng
 
 # Tech stack
 
-To complete the challenge, installaion of node.js (https://nodejs.org/en/) and npm (https://nodejs.org/en/) will be required. Min version of Node 8 is recommended.
+To complete the challenge, installation of node.js (https://nodejs.org/en/) and npm (https://nodejs.org/en/) will be required. Min version of Node 8 is recommended.
+
+## Running this application
+Make sure [MongoDB][mongodb] is running locally on the default port (27017).
+You can change connection URI in `index.js`.
+
+Open a terminal/console/command prompt,
+change to the directory where you cloned this repo and type:
+`npm install` followed by `npm run start` 
+
+You can run unit tests by typing:
+`npm run unit` 
 
 # Coding challenge
 
@@ -31,3 +42,5 @@ Note: For some books all of the data won't be available.
 * Write unit tests (use test suite libraries like `mocha` or `jest`) for the code and use code coverage analysis tool (built-in `jest` one, or libraries like `Istanbul`).
 
 * Process all metadata for the titles for later querying
+
+[mongodb]: https://docs.mongodb.com/manual/installation/

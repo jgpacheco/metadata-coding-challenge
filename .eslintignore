@@ -1,0 +1,7 @@
+.idea
+node_modules
+npm-error.log
+npm-debug.log
+
+coverage
+/vendor

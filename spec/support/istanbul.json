@@ -1,0 +1,8 @@
+{
+  "verbose": false,
+  "instrumentation": {
+    "root": "./components",
+    "include-all-sources": true
+  }
+}
+
